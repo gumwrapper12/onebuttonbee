@@ -3,12 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - enemy
+  - bullet
+  - goal
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - hero
   - Water
   - UI
   - 
