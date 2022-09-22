@@ -11,16 +11,13 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -5022811932419189856}
-    m_Position: {x: 440, y: 220, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 5046642811377028977}
-    m_Position: {x: 434.82193, y: -48.41095, z: 0}
+    m_Position: {x: 490, y: 20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1266654333394688378}
     m_Position: {x: 481.5, y: 117.794525, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
-  - {fileID: 4924219181079092093}
+  - {fileID: 3712572045616188971}
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
@@ -109,7 +106,7 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1101 &4924219181079092093
+--- !u!1101 &3712572045616188971
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,7 +118,7 @@ AnimatorStateTransition:
     m_ConditionEvent: sting launch
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 5046642811377028977}
+  m_DstState: {fileID: -5022811932419189856}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -134,29 +131,3 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!1102 &5046642811377028977
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: stinchlaunch2 0
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 3305275647dd4644c93e39d735c39b82, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
